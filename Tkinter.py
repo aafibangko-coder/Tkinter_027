@@ -3,3 +3,5 @@ from tkinter import ttk
 
 root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")
+root.geometry("600x650")
+root.resizable(False, False)
