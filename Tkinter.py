@@ -14,3 +14,4 @@ judul = tk.Label(
     bg="#F0F4F8",
     fg="#1E3A5F"
 )
+judul.pack(pady=20)
