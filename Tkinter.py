@@ -18,3 +18,16 @@ judul.pack(pady=20)
 
 frame_input = tk.Frame(root, bg="#F0F4F8")
 frame_input.pack(padx=40, pady=5)
+
+mata_pelajaran = [
+    "Matematika",
+    "Bahasa Indonesia",
+    "Bahasa Inggris",
+    "Informatika",
+    "Fisika",
+    "Kimia",
+    "Biologi",
+    "Ekonomi",
+    "Sejarah",
+    "Pendidikan Pancasila"
+]
