@@ -31,3 +31,5 @@ mata_pelajaran = [
     "Sejarah",
     "Pendidikan Pancasila"
 ]
+
+input_nilai = []
