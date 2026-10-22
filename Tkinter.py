@@ -15,3 +15,6 @@ judul = tk.Label(
     fg="#1E3A5F"
 )
 judul.pack(pady=20)
+
+frame_input = tk.Frame(root, bg="#F0F4F8")
+frame_input.pack(padx=40, pady=5)
