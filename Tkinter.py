@@ -70,3 +70,12 @@ tombol = tk.Button(
     relief="flat"
 )
 tombol.pack(pady=20)
+
+hasil = tk.Label(
+    root,
+    text="Hasil Prediksi: Belum ada",
+    font=("Arial", 13, "bold"),
+    bg="#F0F4F8",
+    fg="#555555"
+)
+hasil.pack(pady=10)
