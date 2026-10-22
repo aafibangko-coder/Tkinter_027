@@ -44,3 +44,8 @@ for i, mapel in enumerate(mata_pelajaran):
         anchor="w"
     )
     label.grid(row=i, column=0, padx=5, pady=5, sticky="w")
+
+    entry = ttk.Entry(frame_input, width=25, justify="center")
+    entry.grid(row=i, column=1, padx=5, pady=5)
+
+    input_nilai.append(entry)
