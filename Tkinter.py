@@ -33,3 +33,14 @@ mata_pelajaran = [
 ]
 
 input_nilai = []
+
+for i, mapel in enumerate(mata_pelajaran):
+    label = tk.Label(
+        frame_input,
+        text=mapel,
+        font=("Arial", 11),
+        bg="#F0F4F8",
+        width=22,
+        anchor="w"
+    )
+    label.grid(row=i, column=0, padx=5, pady=5, sticky="w")
